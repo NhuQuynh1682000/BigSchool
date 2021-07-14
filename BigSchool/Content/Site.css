@@ -16,6 +16,58 @@
     white-space: normal;
 }
 
+
+
+/* Override the default bootstrap*/
+.navbar-inverse {
+    background-color: #f66797;
+    border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav >li> a {
+        color: #000000;
+}
+
+.navbar-inverse .navbar-brand {
+    color:palegreen;
+}
+
+/*Course layout*/
+.course{
+    list-style:none;
+}
+
+.course > li {
+       
+        position: relative;
+        margin-bottom: 30px;
+        
+    }
+
+    .course > li .date {
+        text-align: center;
+        background-color: #b6ff00;
+        color:aliceblue;
+        width: 60px;
+        height:50px;
+        border-radius:8px;
+    }
+
+    .course > li .details {
+        top: 0;
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 70px;
+        background-color: #ffffff;
+        color: #f66797;
+        display: inline;
+    }
+
+
+
+
+
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
