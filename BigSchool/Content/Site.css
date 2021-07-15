@@ -48,22 +48,45 @@
         text-align: center;
         background-color: #b6ff00;
         color:aliceblue;
-        width: 60px;
+        width: 50px;
         height:50px;
         border-radius:8px;
     }
 
     .course > li .details {
+        text-align: center;
         top: 0;
         position: absolute;
         width: 200px;
         height: 50px;
-        left: 70px;
+        left: 50px;
         background-color: #ffffff;
         color: #f66797;
         display: inline;
     }
+    /*nghe*/
+        .course > li .details .category {
+            
+            left: 150px;
+            display: inline;
+            width: 100px;
+            background-color: #00ff90;
+        }
+        /*ten*/
+        .course > li .details .lecturer {
+            
+            top: 0;
+            left: 140px;
+            width: 950px;
+            display: inline;
+        }
 
+        .course > li .details .btn {
+            text-align: center;
+            background-color: #eed8f8;
+            left: 100px;
+            width: 60px;
+        }
 
 
 
